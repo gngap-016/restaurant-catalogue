@@ -1,0 +1,61 @@
+{
+    "id": "restaurant-catalogue-pwa-1",
+    "start_url": "./index.html",
+    "name": "Restaurant Catalogue",
+    "short_name": "Warteg?",
+    "description": "Mau cari warteg?",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#1b1b1b",
+    "icons": [
+      {
+        "src": "/icons/warteg-dark_72x72.jpg",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_96x96.jpg",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_128x128.jpg",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_144x144.jpg",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_152x152.jpg",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_192x192.jpg",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_384x384.jpg",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/warteg-dark_512x512.jpg",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }
+  
