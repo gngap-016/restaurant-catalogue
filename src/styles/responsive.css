@@ -1,0 +1,79 @@
+.warteg_list {
+  display: grid;
+  gap: 16px;
+}
+
+@media screen and (min-width: 450px) {
+  /* navbar */
+  .navbar .navbar__logo a .navbar__logo__label{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  /* End Navbar */
+
+  .container h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  /* Navbar */
+  .navbar .navbar__logo a .navbar__logo__label{
+    font-size: 24px;
+  }
+
+  .navbar__button {
+    display: none;
+  }
+
+  .navbar .navbar__menu {
+    position: static;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .navbar .navbar__menu .navbar__menu__item {
+    display: inline-flex;
+    margin: 0;
+  }
+
+  .navbar .navbar__menu .navbar__menu__item a{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 12px;
+    padding: 8px;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  /* End Navbar */
+
+  .container h1 {
+    font-size: 32px;
+  }
+
+  /* Warteg List */
+  .warteg_list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  /* End Warteg List */
+
+  /* Warteg Detail */
+  .restaurant__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* End Warteg Detail */
+}
+
+@media screen and (min-width: 1200px) {
+  /* Warteg List */
+  .warteg_list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  /* End Warteg List */
+}
