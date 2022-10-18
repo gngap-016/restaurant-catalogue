@@ -5,7 +5,7 @@ import CONFIG from '../../globals/config';
 const createRestaurantItemTemplate = (restaurant) => `
     <article class="card">
         <img class="card__poster lazyload" 
-            src="${CONFIG.BASE_IMAGE_URL_MD + restaurant.pictureId}" 
+            data-src="${CONFIG.BASE_IMAGE_URL_MD + restaurant.pictureId}" 
             alt="${restaurant.name}">
         <span class="card__rating"><i class="fa-solid fa-star"></i> ${restaurant.rating}</span>
         <section class="card__content">
