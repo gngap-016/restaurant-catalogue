@@ -3,7 +3,12 @@ import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 
 class App {
-  constructor({ buttonOpen, buttonClose, navbar, body }) {
+  constructor({
+    buttonOpen,
+    buttonClose,
+    navbar,
+    body,
+  }) {
     this._buttonOpen = buttonOpen;
     this._buttonClose = buttonClose;
     this._navbar = navbar;

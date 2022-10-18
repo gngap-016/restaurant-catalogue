@@ -1,4 +1,4 @@
-import { createRestaurantItemTemplate } from "../../templates/template-creator";
+import { createRestaurantItemTemplate } from '../../templates/template-creator';
 
 class FavoriteRestaurantView {
   getTemplate() {
@@ -18,6 +18,7 @@ class FavoriteRestaurantView {
   showFavoriteRestaurant(restaurant = []) {
     let html;
     if (restaurant.length) {
+      // eslint-disable-next-line no-shadow
       html = restaurant.reduce((carry, restaurant) => carry.concat(createRestaurantItemTemplate(restaurant)), '');
     } else {
       html = this._getEmptyRestaurantTemplate();
